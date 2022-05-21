@@ -12,7 +12,7 @@
 >
 > Los servicios son clases que se encargan de acceder a los datos para entregarlos a los componentes. Lo bueno de esto es que podemos reaprovechar servicios para distintos componentes.
 >
-> b) ¿Qué es la <<inyección de dependencias>>? ¿Para qué sirve el decorador @Injectable?
+> #### b) ¿Qué es la <<inyección de dependencias>>? ¿Para qué sirve el decorador @Injectable?
 >
 > La inyección de dependencias (en inglés Dependency Injection, DI) es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase la que cree dichos objetos. Esos objetos cumplen contratos que necesitan nuestras clases para poder funcionar (de ahí el concepto de dependencia). Nuestras clases no crean los objetos que necesitan, sino que se los suministra otra clase 'contenedora' que inyectará la implementación deseada a nuestro contrato.1​
 >
@@ -20,7 +20,7 @@
 > 
 > El decorador @injectable sirve para marcar una clase como disponible para ser proporcionada e inyectada como dependencia.
 >
-> c) Explica los siguientes conceptos de la programación reactiva que se usan en RxJS:
+> #### c) Explica los siguientes conceptos de la programación reactiva que se usan en RxJS:
 >
 > • Observable: Son colecciones Push de múltiples valores.
 >
@@ -32,7 +32,7 @@
 >
 > • Schedulers: Controla cuándo comienza una suscripción y cuándo se entregan las notificaciones.
 >
-> d) ¿Cuál es la diferencia entre promesas y observables?
+> #### d) ¿Cuál es la diferencia entre promesas y observables?
 >
 > Algunas diferencias entre observables y promesas son las siguientes:
 >
@@ -44,6 +44,6 @@
 >
 > Observables subscribe() es responsable de manejar los errores. Las promesas empujan los errores a promesas hijas. Esto hace que los observables sean útiles para el manejo centralizado y predecible de errores.
 >
-> e) ¿Cuál es la función de la tubería (pipe) async?
+> #### e) ¿Cuál es la función de la tubería (pipe) async?
 >
 > La tubería asíncrona se suscribe a un Observable o Promise y devuelve el último valor que ha emitido. Cuando se emite un nuevo valor, la canalización asíncrona marca el componente para verificar los cambios. Cuando el componente se destruye, la canalización asíncrona cancela la suscripción automáticamente para evitar posibles fugas de memoria. Cuando la referencia de la expresión cambia, la canalización asíncrona cancela automáticamente la suscripción del antiguo Observable o Promise y se suscribe al nuevo.
