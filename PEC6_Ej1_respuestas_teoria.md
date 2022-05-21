@@ -1,6 +1,6 @@
 > ### PEC6_Ej1
 >
-> a) ¿Cuál es la función de los componentes y servicios? (i.e. cuándo se debe utilizar cada uno de ellos)
+> #### a) ¿Cuál es la función de los componentes y servicios? (i.e. cuándo se debe utilizar cada uno de ellos)
 >
 > Un componente en Angular es un elemento que está compuesto por:
 >
@@ -18,7 +18,7 @@
 >
 > En otras palabras, se trata de un patrón de diseño que se encarga de extraer la responsabilidad de la creación de instancias de un componente para delegarla en otro.
 > 
-> El decorador @injecable sirve para marcar una clase como disponible para ser proporcionada e inyectada como dependencia.
+> El decorador @injectable sirve para marcar una clase como disponible para ser proporcionada e inyectada como dependencia.
 >
 > c) Explica los siguientes conceptos de la programación reactiva que se usan en RxJS:
 >
