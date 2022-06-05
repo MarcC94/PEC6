@@ -10,4 +10,6 @@
 >
 > - Respuesta teoria ejercicio 1 en "PEC6_Ej1_respuestas_teoria.md".
 >
-> 
+> PEC6_Ej3
+>
+> - Respuesta teoria ejercicio 3 en "PEC6_Ej3_respuestas_teoria.md".
